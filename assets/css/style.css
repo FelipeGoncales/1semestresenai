@@ -18,6 +18,7 @@
 
 main {
     background-color: var(--cinza-escuro);
+    padding: 60px 0;
 }
 .bg-blue {
     background-color: var(--azul-escuro);
@@ -40,12 +41,14 @@ main {
 .preto {
     color: var(--preto);
 }
+.amarelo {
+    color: var(--amarelo);
+}
 
 .titulo {
-    font-size: 40px;
+    font-size: 30px;
 }
 .titulo-m {
-    padding-top: 30px;
     font-size: 100px;
 }
 .titulo-p {
@@ -77,8 +80,11 @@ main {
 .j-center {
     justify-content: center;
 }
+.a-right {
+    align-items: end;
+}
 .padding-p {
-    padding: 5px;
+    padding: 10px;
 }
 .padding-m {
     padding: 30px;
@@ -89,22 +95,21 @@ main {
 .gap-sec {
     gap:60px;
 }
+.gap-m2 {
+    gap: 25px;
+}
 nav a {
-    padding: 10px;
     transition: 0.3s;
-    border-radius: 20px;    
 }
 nav a:hover {
-    background-color: var(--azul-escuro);
-    color: var(--branco);
-    border-radius: 20px;
+    color: var(--laranja);
 }
 .bold {
     font-weight: bold;
 }
 .texto {
     width: 50vw;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 300;
 }
 .img-main {
@@ -116,4 +121,10 @@ nav a:hover {
 }
 .t-right{
     text-align: right;
+}
+.t-center {
+    text-align: center;
+}
+footer {
+    padding: 30px 0;
 }
