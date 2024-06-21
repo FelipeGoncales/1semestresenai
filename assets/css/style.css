@@ -228,7 +228,7 @@ footer {
         text-align: center;
     }
     .subtitulo {
-        font-size: 30px;
+        font-size: 25px;
     }
     .titulo {
         font-size: 19px;
@@ -242,6 +242,9 @@ footer {
     .titulo-p {
         font-size: 40px;
     }
+    .titulo-m {
+        font-size: 45px;
+    }
     .img-main {
         height: 150px;
         width: auto;
@@ -250,9 +253,6 @@ footer {
 @media (max-width: 321px) {
     .titulo {
         font-size: 16px;
-    }
-    .titulo-m {
-        font-size: 40px;
     }
     .img-main {
         width: auto;
