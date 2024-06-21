@@ -116,12 +116,21 @@ nav a:hover {
     font-size: 22px;
     font-weight: 300;
 }
+.legenda {
+    font-weight: 20px;
+}
 .img-main {
     width: auto;
     height: 200px;
 }
 .img-comp {
     width: 800px;
+    border-radius: 30px;
+}
+.img-tt {
+    height: 500px;
+    width: auto;
+    border-radius: 30px;
 }
 .logo-senai {
     width: 200px;
@@ -142,8 +151,9 @@ footer {
     width: 60px;
     height: auto;
 }
-.gap-pp {
-    gap: 10px;
+.legenda {
+    font-weight: lighter;
+    font-style: italic;
 }
 
 @media (max-width: 1025px) {
@@ -158,15 +168,21 @@ footer {
         padding: 20px;
     }
 }
+
+@media (max-width: 935px) {
+    nav a {
+        font-size: 12px;
+    }
+    .gap-m {
+        gap: 40px;
+    }
+}
 @media (max-width: 769px) {
     .titulo {
         font-size: 17px;
     }
     .logo-senai {
         width: 160px;
-    }
-    nav a {
-        font-size: 12px;
     }
     .titulo-m {
         font-size: 45px;
@@ -216,7 +232,7 @@ footer {
         width: 80vw;
     }
     .gap-main {
-        gap: 60px;
+        gap: 40px;
     }
     .gap-p  {
         gap: 10px;
@@ -249,6 +265,13 @@ footer {
         height: 150px;
         width: auto;
     }
+    .img-tt {
+        width: 90%;
+        height: auto;
+    }
+    .img-tt, .img-comp {
+        border-radius: 15px;
+    }
 }
 @media (max-width: 321px) {
     .titulo {
@@ -257,5 +280,11 @@ footer {
     .img-main {
         width: auto;
         height: 120px;
+    }
+    .titulo-m {
+        font-size:40px;
+    }
+    .titulo-p {
+        font-size: 32px;
     }
 }

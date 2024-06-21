@@ -17,31 +17,33 @@
                 <h1 class="titulo branco">Curso Técnico em Desenvolvimento de Sistemas</h1>
             </div>
             <nav class="bg-white d-flex gap-m padding-p center">
-                <a href="#figma" class="preto">Figma</a>
-                <a href="#html" class="preto">HTML</a>
-                <a href="#css" class="preto">CSS</a>
-                <a href="#python" class="preto">Python</a>
+                <a href="#frontend" class="preto">Front-end</a>
+                <a href="#backend" class="preto">Back-end</a>
+                <a href="#arq-redes" class="preto">Arquitetura de Redes</a>
+                <a href="#iot" class="preto">IoT</a>
                 <a href="#impressoes" class="preto">Impressões</a>
                 <a href="#expectativas" class="preto">Expectativas</a>
             </nav>
         </header>
         <main class="d-flex center column gap-main">
-            <h2 class="titulo-m bold branco">Front-End</h2>
-            <section class="d-flex center gap-sec" id="figma">
-                <div class="d-flex column gap-p">
-                    <h3 class="titulo-p roxo">Figma</h3>
-                    <p class="texto branco">
-                        Inicialmente, antes de aprender até mesmo linguagens de marcação, 
-                        conhecemos o <span class="sublinhado bold">Figma</span>, uma ferramenta de design colaborativa que permite 
-                        que os usuários possam desenvolver a interface de seus sites de maneira 
-                        simples e prática, além de possibilitar o compartilhamento do projeto 
-                        com os demais colaboradores, muito útil em trabalhos em equipe 
-                        (Inclusive esse site foi feito com auxílio do figma)
-                    </p>
+            <section class="d-flex center gap-sec column" id="frontend">
+                <h2 class="titulo-m bold branco">Front-End</h2>
+                <div class="d-flex gap-sec center">
+                    <div class="d-flex column">
+                        <h3 class="titulo-p roxo">Figma</h3>
+                        <p class="texto branco">
+                            Inicialmente, antes de aprender até mesmo linguagens de marcação, 
+                            conhecemos o <span class="sublinhado bold">Figma</span>, uma ferramenta de design colaborativa que permite 
+                            que os usuários possam desenvolver a interface de seus sites de maneira 
+                            simples e prática, além de possibilitar o compartilhamento do projeto 
+                            com os demais colaboradores, muito útil em trabalhos em equipe 
+                            (Inclusive esse site foi feito com auxílio do figma).
+                        </p>
+                    </div>
+                    <img src="assets/img/figma.png" alt="logo FIGMA" class="img-main">
                 </div>
-                <img src="assets/img/figma.png" alt="logo FIGMA" class="img-main">
             </section>
-            <section class="d-flex center gap-sec c-reverse" id="html">
+            <section class="d-flex center gap-sec c-reverse">
                 <img src="assets/img/html.png" alt="logo HTML" class="img-main">
                 <div class="d-flex column gap-p a-right">
                     <h3 class="titulo-p laranja">HTML</h3>
@@ -54,7 +56,7 @@
                     </p>
                 </div>
             </section>
-            <section class="d-flex center gap-sec" id="css">
+            <section class="d-flex center gap-sec">
                 <div class="d-flex gap-p column">
                     <h3 class="titulo-p azul">CSS</h3>
                     <p class="texto branco">
@@ -78,18 +80,48 @@
                     <img src="assets/img/com-css.png" alt="Site com css" class="img-comp">
                 </div>
             </section>
-            <h2 class="titulo-m bold branco">Back-end</h2>
-            <section class="d-flex center c-reverse" id="python">
-                <img src="assets/img/python.png" alt="logo Python" class="img-main">
-                <div class="d-flex column gap-p a-right">
-                    <h4 class="titulo-p amarelo">Python</h4>
-                    <p class="texto branco t-right">
-                        Partindo para a parte de Back-end, também trabalhamos com <span class="sublinhado bold">Python</span>. 
-                        A linguagem tem como característica a simplicidade e legibilidade 
-                        facilitada comparada as demais concorrentes. Confesso que achei um 
-                        tanto desafiador unir tal linguagem a documentos HTML, mas acredito 
-                        que me sai bem de modo geral.
-                    </p>
+            <section class="d-flex center column" id="backend">   
+                <h2 class="titulo-m bold branco">Back-end</h2>
+                <div class="d-flex center c-reverse">
+                    <img src="assets/img/python.png" alt="logo Python" class="img-main">
+                    <div class="d-flex column gap-p a-right">
+                        <h4 class="titulo-p amarelo">Python</h4>
+                        <p class="texto branco t-right">
+                            Partindo para a parte de Back-end, também trabalhamos com <span class="sublinhado bold">Python</span>. 
+                            A linguagem tem como característica a simplicidade e legibilidade 
+                            facilitada comparada as demais concorrentes. Confesso que achei um 
+                            tanto desafiador unir tal linguagem a documentos HTML, mas acredito 
+                            que me sai bem de modo geral.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="d-flex column gap-m2 center" id="arq-redes">
+                <h4 class="titulo-m bold branco">Arquitetura de Redes</h4>
+                <p class="texto branco t-center">Ao longo do curso, também tive a oportunidade de explorar a Arquitetura de Redes, 
+                    um campo essencial para o funcionamento da internet e comunicação entre dispositivos.
+                     Aprendi sobre os diferentes <span class="sublinhado bold">tipos de redes</span>, 
+                     como LAN, WAN e MAN, além dos <span class="sublinhado bold">protocolos</span>
+                      que regem a comunicação de dados e as diferentes <span class="sublinhado bold">topologias</span>.
+                </p>
+                <div class="d-flex column center t-center gap-p">
+                    <img src="assets/img/arq-redes.png" alt="Exemplo de Topologia em Árvore" class="img-comp">
+                    <p class="texto branco legenda">Exemplo de Topologia em Árvore</p>
+                </div>
+            </section>
+            <section class="d-flex column center gap-m2" id="iot">
+                <h4 class="titulo-m bold branco">IoT</h4>
+                <p class="texto branco t-center">
+                    Também pude aprender sobre dispositivos IoT (Internet das Coisas), 
+                    um campo emergente que está transformando a maneira como interagimos
+                        com a tecnologia e o mundo ao nosso redor. Aprendi sobre os diversos 
+                        dispositivos conectados que compõem o ecossistema IoT, desde sensores 
+                        inteligentes até aparelhos domésticos, e como eles se comunicam entre 
+                        si e com a internet.
+                </p>
+                <div class="d-flex column center gap-p">
+                    <img src="assets/img/tinkerkad.png" alt="TinkerKat" class="img-tt">
+                    <p class="texto legenda branco t-center">Projeto de Semáforo feito pela plataforma "TinkerKat"</p>
                 </div>
             </section>
             <section class="d-flex column center gap-m2" id="impressoes">
@@ -118,7 +150,7 @@
         </main>
         <footer class="bg-blue d-flex gap-m2 center column">
             <img src="assets/img/senai.png" alt="logo SENAI" class="logo-senai">
-            <div class="d-flex gap-pp center">
+            <div class="d-flex gap-p center">
                 <p class="titulo branco">Felipe Gabriel da Silva Gonçales</p>
             <a href="https://github.com/FelipeGoncales" target="_blank"><img src="assets/img/github.png" alt="" class="logo-git"></a>
             </div>
