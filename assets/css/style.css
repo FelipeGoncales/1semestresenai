@@ -139,8 +139,11 @@ footer {
     padding: 30px 0;
 }
 .logo-git {
-    width: 120px;
+    width: 60px;
     height: auto;
+}
+.gap-pp {
+    gap: 10px;
 }
 
 @media (max-width: 1025px) {
@@ -175,10 +178,6 @@ footer {
         font-size: 16px;
         width: 60vw;
     }
-    .logo-git {
-        width: 100px;
-        height: auto;
-    }
     .padding-m {
         padding: 20px;
     }
@@ -190,6 +189,10 @@ footer {
         text-align: center;
         justify-content: center;
         align-items: center;
+    }
+    .logo-git {
+        width: 100px;
+        height: auto;
     }
     .c-reverse {
         flex-direction: column-reverse;
@@ -213,7 +216,7 @@ footer {
         width: 80vw;
     }
     .gap-main {
-        gap: 50px;
+        gap: 60px;
     }
     .gap-p  {
         gap: 10px;
@@ -235,6 +238,13 @@ footer {
     }
     main {
         padding: 40px 0;
+    }
+    .titulo-p {
+        font-size: 40px;
+    }
+    .img-main {
+        height: 150px;
+        width: auto;
     }
 }
 @media (max-width: 321px) {
