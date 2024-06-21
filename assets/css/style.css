@@ -46,16 +46,17 @@ main {
 }
 
 .titulo {
-    font-size: 30px;
+    font-size: 22px;
+    letter-spacing: 1px;
 }
 .titulo-m {
-    font-size: 100px;
+    font-size: 60px;
 }
 .titulo-p {
-    font-size: 80px;
+    font-size: 50px;
 }
 .subtitulo {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .d-flex {
@@ -90,10 +91,13 @@ main {
     padding: 30px;
 }
 .gap-m {
-    gap: 150px;
+    gap: 80px;
 }
 .gap-sec {
-    gap:60px;
+    gap:40px;
+}
+.gap-main {
+    gap: 60px;
 }
 .gap-m2 {
     gap: 25px;
@@ -108,13 +112,19 @@ nav a:hover {
     font-weight: bold;
 }
 .texto {
-    width: 50vw;
-    font-size: 27px;
+    width: 60vw;
+    font-size: 22px;
     font-weight: 300;
 }
 .img-main {
-    width: 300px;
-    height: auto;
+    width: auto;
+    height: 200px;
+}
+.img-comp {
+    width: 800px;
+}
+.logo-senai {
+    width: 200px;
 }
 .sublinhado {
     text-decoration: underline;
@@ -127,4 +137,115 @@ nav a:hover {
 }
 footer {
     padding: 30px 0;
+}
+.logo-git {
+    width: 120px;
+    height: auto;
+}
+
+@media (max-width: 1025px) {
+    .texto {
+        font-size: 20px;
+    }
+    .img-comp {
+        width: 650px;
+        height: auto;
+    }
+    .padding-m {
+        padding: 20px;
+    }
+}
+@media (max-width: 769px) {
+    .titulo {
+        font-size: 17px;
+    }
+    .logo-senai {
+        width: 160px;
+    }
+    nav a {
+        font-size: 12px;
+    }
+    .titulo-m {
+        font-size: 45px;
+    }
+    .titulo-p {
+        font-size: 35px;
+    }
+    .texto {
+        font-size: 16px;
+        width: 60vw;
+    }
+    .logo-git {
+        width: 100px;
+        height: auto;
+    }
+    .padding-m {
+        padding: 20px;
+    }
+}
+@media (max-width: 426px) {
+    .d-flex {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .c-reverse {
+        flex-direction: column-reverse;
+    }
+    .img-comp {
+        width: 90%;
+    }
+    nav, nav a {
+        display: none;
+    }
+    .header {
+        box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.4);
+    }
+    .bg-white, .gap-m, .padding-p{
+        padding: 0;
+        gap: 0;
+        display: none;
+    }
+    .texto{
+        text-align: center;
+        width: 80vw;
+    }
+    .gap-main {
+        gap: 50px;
+    }
+    .gap-p  {
+        gap: 10px;
+    }
+    .gap-m2, .gap-sec {
+        gap: 20px;
+    }
+    .t-right {
+        text-align: center;
+    }
+    .subtitulo {
+        font-size: 30px;
+    }
+    .titulo {
+        font-size: 19px;
+    }
+    footer {
+        padding: 20px 0;
+    }
+    main {
+        padding: 40px 0;
+    }
+}
+@media (max-width: 321px) {
+    .titulo {
+        font-size: 16px;
+    }
+    .titulo-m {
+        font-size: 40px;
+    }
+    .img-main {
+        width: auto;
+        height: 120px;
+    }
 }
